@@ -1,0 +1,145 @@
+
+.zt-module-testimonial {
+  a.carousel-control.right, a.carousel-control.left{
+    background-image: none;
+  }
+}
+.ztTestimonial {
+
+  .item{
+    padding: 0px;
+  }
+  .left ,.right{
+    margin: 0px;
+    width: 100%;
+  }
+  .carousel-control.right ,.carousel-control.left{
+    width: 12%;
+    background-image: none;
+    span{
+      text-shadow: none;
+    }
+    &:hover {
+      span{
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+      }
+    }
+
+  }
+  .active{
+    padding: 0px;
+   // margin-bottom: -20px;
+  }
+  img.quote{
+    border: none;
+    width: 20px;
+    margin-top:-10px;
+  }
+  img.avatar {
+    float: right;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #EFEFEF;
+    padding: 3px;
+  }
+  a.carousel-control{
+    background: none;
+    border: none;
+    height: auto;
+    margin-top:0px;
+    &:hover{
+      background:none;
+    }
+    &:link, &:visited {
+      color: #ffffff;
+    }
+  }
+  ol.carousel-indicators{
+    top:auto;
+    margin: 0px 0px 0px -30%;
+    bottom: 0px;
+  }
+  ol.carousel-indicators li{
+    display: inline-block;
+    float: none;
+    border: 1px solid lightgray;
+    height: 10px;
+    width: 10px;
+    margin: 1px 5px 1px 1px;
+  }
+  ol.carousel-indicators li.active{
+    float: none;
+    background-color: #269abc;
+    border: 1px solid blue;
+    height: 10px;
+    width: 10px;
+    margin: 1px 5px 1px 1px;
+  }
+  p.content-testimonial{
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    position: relative;
+    margin: 20px 20px 30px 20px;
+    min-height: 10px;
+  }
+  p.content-testimonial{
+
+    &:before,
+    &:after{
+
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent;
+      border-bottom: 0;
+    }
+    &:before {
+
+      border-top-color: #E0E0E0;
+      border-width: 30px 0 0 30px;
+      bottom: -31px;
+      left: 54px;
+      margin-right: 10px;
+    }
+    &:after{
+      border-top-color: #FFFFFF;
+      border-width: 30px 0 0 30px;
+      bottom: -28px;
+      left: 53px;
+    }
+  }
+  .name, .email, .position, .website{
+    margin: 5px 0px 5px 0px;
+  }
+  .website {
+    a {
+      text-decoration: none;
+
+    }
+  }
+  .tw-fb {
+
+    a {
+      padding: 2px 0px;
+      cursor: pointer;
+      text-decoration: none;
+      color: #808080;
+      &:hover {
+        color: #f5f5f5;
+        background-color: cornflowerblue;
+        box-shadow: 0px 1px 1px;
+      }
+      span {
+        padding: 0px 5px;
+      }
+      i {
+        padding: 5px 5px;
+      }
+    }
+
+  }
+
+
+}

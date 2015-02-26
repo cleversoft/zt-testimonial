@@ -1,0 +1,176 @@
+#jform_params_asset-lbl,
+#jform_params_loadTestimonial-lbl {
+  display: none;
+}
+.addDiv {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #EFEFEF;
+}
+.wrap {
+  padding: 2px;
+}
+.ztAddTestimonial {
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  height: 20px;
+}
+#ztAddTestimonial {
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  height: 20px;
+}
+#ztAddTestimonial:hover {
+  background-color: #eee;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.0.3');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-arrows:before {
+  content: "\f047";
+  font-size: 2em;
+}
+.fa-times:before {
+  content: "\f00d";
+  font-size: 2em;
+}
+#ztTestimonialList .ztTestimonial {
+  overflow: hidden;
+  margin: 3px 0 !important;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: #ccc 1px solid;
+  clear: both;
+  min-height: 30px;
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+#ztTestimonialList .ztTestimonial .ztTestimonialHandle {
+  cursor: move;
+  width: 8%;
+  float: left;
+  border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+}
+#ztTestimonialList .ztTestimonial .ztTestimonialHandle span {
+  color: #cbcbcb;
+  margin-top: 3px;
+  text-align: center;
+  width: 100%;
+}
+#ztTestimonialList .ztTestimonial .ztTestimonialHandle .ztTestimonialnumber {
+  color: #cbcbcb;
+  text-align: center;
+  text-shadow: 1px 1px #fff;
+  font-size: 20px;
+  padding-top: 5px;
+  background: #eee;
+  height: 25px;
+  border-bottom: 1px solid #ccc;
+}
+#ztTestimonialList .ztTestimonial .container {
+  border-left: 1px solid #CCCCCC;
+  float: left;
+  padding-left: 2%;
+  position: relative;
+  width: 88%;
+  clear: none;
+  text-align: left;
+}
+#ztTestimonialList .ztTestimonial .container .testimonial {
+  width: 90%;
+  display: block;
+}
+#ztTestimonialList .ztTestimonial .container .info {
+  padding: 5px 0px 5px 0px;
+  min-height: 100px;
+}
+#ztTestimonialList .ztTestimonial .container .info a {
+  box-shadow: none;
+  left: auto;
+  margin-left: 0;
+  top: auto;
+  width: auto;
+  position: static;
+}
+#ztTestimonialList .ztTestimonial .container .info input {
+  width: auto;
+}
+#ztTestimonialList .ztTestimonial .container .info .ztAvatar {
+  height: 60px;
+  width: 90px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 1px #333;
+  border-radius: 5px;
+  margin: 0px 5px 0px 0;
+}
+#ztTestimonialList .ztTestimonial .container .info .ztAvatar img {
+  height: 60px;
+  width: 90px;
+  margin: 0px;
+}
+#ztTestimonialList .ztTestimonial .container .zt-testimonial-title {
+  margin: 5px;
+  display: block;
+  height: 25px;
+  font-size: 13px;
+  cursor: pointer;
+}
+#ztTestimonialList .ztTestimonial .container .zt-testimonial-label {
+  margin: 5px;
+  width: 80px;
+  display: inline-block;
+  height: 25px;
+  font-size: 13px;
+}
+#ztTestimonialList .ztTestimonial .container .ztDelete {
+  /*	float: right !important;*/
+  top: 0;
+  position: absolute;
+  right: 0;
+  display: block;
+  color: #cbcbcb;
+  cursor: pointer;
+  width: 16px !important;
+  height: 16px;
+  border: none;
+}
+#ztTestimonialList .ztTestimonial .container .ztDelete:hover {
+  color: red;
+}
+#ztTestimonialList .ztTestimonial input {
+  clear: both;
+  float: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+#ztTestimonialList .ztTestimonial .hide {
+  display: none;
+}

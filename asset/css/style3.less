@@ -1,0 +1,90 @@
+.zt-module-testimonial {
+  .owl-item{
+    padding: 15px 15px;
+  }
+  //= wt-team
+  .zt-testimonial {
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    &:hover {
+      -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+      box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+      border-bottom: 3px solid #0088cc;
+    }
+    .zt-avatar {
+      position: relative;
+      img {
+        width: 100%;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        //background: white;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+      }
+    }
+
+    .zt-information {
+      padding: 18px 18px 0;
+      display: block;
+      a {
+        text-decoration: none;
+
+      }
+      .zt-info-name{
+        color: #303030;
+        text-shadow: 1px 1px 0 transparent;
+        padding: 0px;
+        margin: 0px;
+      }
+      .zt-info-position{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+      }
+      p.zt-content {
+        border-top: 1px solid rgba(0,0,0,0.1);
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        margin: 14px 0;
+        padding: 14px 0;
+        a {
+          text-decoration: none;
+        }
+      }
+
+      ul.zt-member-social-links {
+        list-style: none;
+        display: inline-block;
+        position: static;
+        margin: 0px;
+        li {
+          display: block;
+          float: left;
+          padding: 12px!important;
+          font-size: 18px;
+          text-align: center;
+          a{
+            color: #0088cc;
+            -webkit-transition: color 0.2s ease-out;
+            -moz-transition: color 0.2s ease-out;
+            -o-transition: color 0.2s ease-out;
+            transition: color 0.2s ease-out;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+  }
+}

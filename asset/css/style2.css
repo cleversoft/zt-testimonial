@@ -1,0 +1,177 @@
+#zt-module-testimonial .owl-item {
+  padding: 15px 15px;
+}
+#zt-module-testimonial .zt-testimonial:hover .zt-avatar span.zt-icon {
+  right: 0px;
+  bottom: 0px;
+  opacity: 1;
+  cursor: pointer;
+}
+#zt-module-testimonial .zt-testimonial:hover .zt-avatar span.zt-icon a {
+  color: #333333;
+}
+#zt-module-testimonial .zt-testimonial:hover .zt-avatar span.zt-icon a:hover {
+  color: #FE7E17;
+}
+#zt-module-testimonial .zt-testimonial:hover .zt-avatar span.item-on-hover {
+  opacity: 0.6;
+}
+#zt-module-testimonial .zt-testimonial:hover .zt-avatar span.item-on-hover span.hover-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  margin-left: -17px;
+  margin-top: -17px;
+}
+#zt-module-testimonial .zt-testimonial:hover .zt-avatar span.item-on-hover span.hover-image i {
+  color: #ffffff;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+#zt-module-testimonial .zt-testimonial:hover .zt-avatar span.item-on-hover span.hover-image:hover i {
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+#zt-module-testimonial .zt-testimonial:hover .zt-avatar span.item-on-hover span.hover-image:hover i:hover {
+  height: 33px;
+  width: 33px;
+  line-height: 34px;
+  text-align: center;
+}
+#zt-module-testimonial .zt-testimonial .zt-avatar {
+  position: relative;
+  /*
+      &:hover {
+        span.zt-icon {
+          right: 0px;
+          bottom: 0px;
+          opacity: 1;
+          cursor: pointer;
+          a {
+            color: #333333;
+          &:hover {
+            color: #FE7E17;
+          }
+          }
+
+        }
+        span.item-on-hover {
+
+        opacity: 0.6;
+          span.hover-image {
+            position: absolute;
+            top:50%;
+            left: 50%;
+            height: 35px;
+            width: 35px;
+            text-align: center;
+            margin-left: -17px;
+            margin-top: -17px;
+            i {
+              color: #ffffff;
+
+              height: 34px;
+              line-height: 34px;
+              text-align: center;
+            }
+            &:hover {
+              i {
+                height: 34px;
+                line-height: 34px;
+                text-align: center;
+                &:hover {
+                  //border: 1px solid red;
+                  height: 33px;
+                  width: 33px;
+                  line-height: 34px;
+                  text-align: center;
+
+                }
+              }
+            }
+
+          }
+
+        }
+      }
+      */
+}
+#zt-module-testimonial .zt-testimonial .zt-avatar span.zt-icon {
+  right: 0px;
+  bottom: 0px;
+  opacity: 0;
+  position: absolute;
+}
+#zt-module-testimonial .zt-testimonial .zt-avatar span.zt-icon a:first-child span i {
+  border-top: 1px solid deepskyblue ;
+}
+#zt-module-testimonial .zt-testimonial .zt-avatar span.zt-icon span.hover-icon {
+  background: #ffffff;
+  display: block;
+}
+#zt-module-testimonial .zt-testimonial .zt-avatar span.zt-icon span.hover-icon i {
+  line-height: 22px;
+  text-align: center;
+  border-top: none;
+  border-left: 1px solid deepskyblue;
+  border-right: 1px solid deepskyblue;
+  border-bottom: 1px solid deepskyblue;
+  height: 22px;
+  width: 22px;
+}
+#zt-module-testimonial .zt-testimonial .zt-avatar span.item-on-hover {
+  background: deepskyblue;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+}
+#zt-module-testimonial .zt-testimonial .zt-avatar img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+#zt-module-testimonial .zt-testimonial .zt-information .zt-name h3 {
+  padding-bottom: 5px;
+}
+#zt-module-testimonial .zt-testimonial .zt-information .zt-position {
+  padding: 5px 0px;
+}
+#zt-module-testimonial .zt-testimonial .zt-information .zt-position span:before {
+  content: "\f067";
+  font-family: 'Fontawesome';
+  float: left;
+  padding-right: 10px;
+}
+#zt-module-testimonial .zt-testimonial .zt-information .zt-position span#2222:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  padding-right: 10px;
+}
+#zt-module-testimonial .zt-testimonial .zt-information .zt-content {
+  padding: 5px 0px;
+}
+#zt-module-testimonial .zt-testimonial .zt-information .zt-email {
+  padding: 5px 0px;
+}
+#zt-module-testimonial .zt-testimonial .zt-information .zt-website {
+  padding: 5px 0px;
+}
+#zt-module-testimonial .zt-testimonial .zt-information .zt-website a:hover {
+  text-decoration: none;
+}
+.zt-module-testimonial .carousel {
+    margin: 0 !important;
+    position: relative;
+}
+.zt-module-testimonial > div {
+    height: auto !important;
+}
+

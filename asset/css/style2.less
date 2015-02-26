@@ -1,0 +1,219 @@
+#zt-module-testimonial {
+  .owl-item{
+    padding: 15px 15px;
+  }
+  .zt-testimonial {
+    //padding: 0px 15px;
+    //border-bottom: 5px solid deepskyblue;
+    &:hover {
+      .zt-avatar {
+        span.zt-icon {
+          right: 0px;
+          bottom: 0px;
+          opacity: 1;
+          cursor: pointer;
+          a {
+            color: #333333;
+            &:hover {
+              color: #FE7E17;
+            }
+          }
+
+        }
+        span.item-on-hover {
+
+          opacity: 0.6;
+          span.hover-image {
+            position: absolute;
+            top:50%;
+            left: 50%;
+            height: 35px;
+            width: 35px;
+            text-align: center;
+            margin-left: -17px;
+            margin-top: -17px;
+            i {
+              color: #ffffff;
+
+              height: 34px;
+              line-height: 34px;
+              text-align: center;
+            }
+            &:hover {
+              i {
+                height: 34px;
+                line-height: 34px;
+                text-align: center;
+                &:hover {
+                  //border: 1px solid red;
+                  height: 33px;
+                  width: 33px;
+                  line-height: 34px;
+                  text-align: center;
+
+                }
+              }
+            }
+
+          }
+
+        }
+      }
+
+    }
+    .zt-avatar {
+      position: relative;
+      /*
+      &:hover {
+        span.zt-icon {
+          right: 0px;
+          bottom: 0px;
+          opacity: 1;
+          cursor: pointer;
+          a {
+            color: #333333;
+          &:hover {
+            color: #FE7E17;
+          }
+          }
+
+        }
+        span.item-on-hover {
+
+        opacity: 0.6;
+          span.hover-image {
+            position: absolute;
+            top:50%;
+            left: 50%;
+            height: 35px;
+            width: 35px;
+            text-align: center;
+            margin-left: -17px;
+            margin-top: -17px;
+            i {
+              color: #ffffff;
+
+              height: 34px;
+              line-height: 34px;
+              text-align: center;
+            }
+            &:hover {
+              i {
+                height: 34px;
+                line-height: 34px;
+                text-align: center;
+                &:hover {
+                  //border: 1px solid red;
+                  height: 33px;
+                  width: 33px;
+                  line-height: 34px;
+                  text-align: center;
+
+                }
+              }
+            }
+
+          }
+
+        }
+      }
+      */
+      span.zt-icon {
+        a:first-child{
+          span{
+            i{
+              border-top:1px solid deepskyblue ;
+            }
+
+          }
+        }
+        right: 0px;
+        bottom: 0px;
+        opacity: 0;
+        position: absolute;
+        //top: 100%;
+        //left: 100%;
+        //margin-left: -22px;
+        //margin-top: -45px;
+        span.hover-icon {
+          background: #ffffff;
+          display: block;
+
+          i {
+            line-height: 22px;
+            text-align: center;
+            border-top:none;
+            border-left: 1px solid deepskyblue;
+            border-right: 1px solid deepskyblue;
+            border-bottom: 1px solid deepskyblue;
+            //color: red;
+            height: 22px;
+            width: 22px;
+          }
+        }
+      }
+      span.item-on-hover {
+        //opacity: 0;
+        background: deepskyblue;
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+
+
+      }
+      img {
+        display: block;
+        height: auto;
+        width: 100%;
+      }
+    }
+    .zt-information {
+
+      .zt-name {
+        h3 {
+          padding-bottom: 5px;
+          //text-align: center;
+          span {
+            //border-bottom: 1px solid #FE7E17;
+          }
+
+        }
+      }
+
+      .zt-position {
+        padding: 5px 0px;
+        span:before {
+          content: "\f067";
+          font-family: 'Fontawesome';
+          float: left;
+          padding-right: 10px;
+
+        }
+        span#2222:before {
+
+          content: "\f10d";
+          font-family: 'Fontawesome';
+          float: left;
+          padding-right: 10px;
+
+
+        }
+      }
+
+      .zt-content { padding: 5px 0px;}
+
+      .zt-email { padding: 5px 0px;}
+
+      .zt-website {
+        padding: 5px 0px;
+        a{
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

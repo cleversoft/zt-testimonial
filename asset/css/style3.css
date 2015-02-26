@@ -1,0 +1,89 @@
+.zt-module-testimonial .owl-item {
+  padding: 15px 15px;
+}
+.zt-module-testimonial .zt-testimonial {
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.zt-module-testimonial .zt-testimonial:hover {
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  border-bottom: 3px solid #0088cc;
+}
+.zt-module-testimonial .zt-testimonial .zt-avatar {
+  position: relative;
+}
+.zt-module-testimonial .zt-testimonial .zt-avatar img {
+  width: 100%;
+}
+.zt-module-testimonial .zt-testimonial .zt-avatar .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+.zt-module-testimonial .zt-testimonial .zt-information {
+  padding: 18px 18px 0;
+  display: block;
+}
+.zt-module-testimonial .zt-testimonial .zt-information a {
+  text-decoration: none;
+}
+.zt-module-testimonial .zt-testimonial .zt-information .zt-info-name {
+  color: #303030;
+  text-shadow: 1px 1px 0 transparent;
+  padding: 0px;
+  margin: 0px;
+}
+.zt-module-testimonial .zt-testimonial .zt-information .zt-info-position {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+.zt-module-testimonial .zt-testimonial .zt-information p.zt-content {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 14px 0;
+  padding: 14px 0;
+}
+.zt-module-testimonial .zt-testimonial .zt-information p.zt-content a {
+  text-decoration: none;
+}
+.zt-module-testimonial .zt-testimonial .zt-information ul.zt-member-social-links {
+  list-style: none;
+  display: inline-block;
+  position: static;
+  margin: 0px;
+}
+.zt-module-testimonial .zt-testimonial .zt-information ul.zt-member-social-links li {
+  display: block;
+  float: left;
+  padding: 12px!important;
+  font-size: 18px;
+  text-align: center;
+}
+.zt-module-testimonial .zt-testimonial .zt-information ul.zt-member-social-links li a {
+  color: #0088cc;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  text-decoration: none;
+}
+.zt-module-testimonial .carousel {
+    margin: 0 !important;
+    position: relative;
+}
+.zt-module-testimonial > div {
+    height: auto !important;
+}
